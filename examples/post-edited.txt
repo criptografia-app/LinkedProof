@@ -1,0 +1,7 @@
+This post is signed. Here's how you can check that you wrote it.
+
+LinkedProof adds a sign button to LinkedIn's post composer. MetaMask signs a hash of the text, and the proof goes to a public Gist.
+
+Change one character and verification fails.
+
+#Cryptography #ContentAuthenticity

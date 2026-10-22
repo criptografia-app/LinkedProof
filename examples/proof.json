@@ -1,0 +1,16 @@
+{
+  "message": "LinkedIn post signature\nsha256: eafa95cb624c4123a786ada6be4f91e523c63d6a17a0b34be8a4ce6838f2d2e2\nTime: 2026-10-22T01:47:29.141Z\nRef: 515zdqm5",
+  "signature": "0xd6fece347dd33c2d222083d2f3dc24a9a7b93ce5030b298ba137d27e7d25a68b727f779778c879f4d6ee267628f2543c0e4ab484887557869f1002046deb4a631b",
+  "address": "0xe2949439318b6c4e63cfeb245b98e285f4203c7e",
+  "timestamp": "2026-10-22T01:47:29.141Z",
+  "post_text": "This post is signed. Here's how you can check that I wrote it.\nLinkedProof adds a sign button to LinkedIn's post composer. MetaMask signs a hash of the text, and the proof goes to a public Gist.\nChange one character and verification fails.\n#Cryptography #ContentAuthenticity",
+  "post_sha256": "eafa95cb624c4123a786ada6be4f91e523c63d6a17a0b34be8a4ce6838f2d2e2",
+  "normalization": "v1: NFC; CRLF->LF; NBSP->space; zero-width chars removed; \"hashtag#\"->\"#\"; runs of spaces/tabs collapsed; lines trimmed; blank lines and the \"Signed by CRIPTOGRAFIA\" line removed",
+  "website": "https://criptografia.app",
+  "application": "CRIPTOGRAFIA LinkedIn Signer",
+  "proof_type": "linkedin_post_signature",
+  "platform": "LinkedIn",
+  "signer_version": "1.4.0",
+  "content_type": "text_post",
+  "note": "EXAMPLE: signed by a throwaway key, not a real author"
+}

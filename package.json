@@ -1,0 +1,13 @@
+{
+  "name": "linkedproof",
+  "version": "1.4.0",
+  "private": true,
+  "description": "Sign LinkedIn posts with MetaMask; verify them with tools/verify.js",
+  "license": "MIT",
+  "scripts": {
+    "verify": "node tools/verify.js"
+  },
+  "dependencies": {
+    "ethers": "6.16.0"
+  }
+}

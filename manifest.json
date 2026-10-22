@@ -1,0 +1,66 @@
+{
+    "manifest_version": 3,
+    "name": "CRIPTOGRAFIA LinkedIn Signing",
+    "version": "1.4.0",
+    "description": "Sign your LinkedIn posts with MetaMask. Proofs are public GitHub Gists anyone can verify.",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "action": {
+        "default_popup": "src/popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "background": {
+        "service_worker": "src/background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.linkedin.com/*"
+            ],
+            "js": [
+                "src/normalize.js",
+                "src/cripto_content.js"
+            ],
+            "css": [
+                "src/styles.css"
+            ],
+            "run_at": "document_idle",
+            "all_frames": true,
+            "match_about_blank": true,
+            "match_origin_as_fallback": true
+        },
+        {
+            "matches": [
+                "*://*.linkedin.com/*"
+            ],
+            "js": [
+                "src/cripto_page.js"
+            ],
+            "world": "MAIN",
+            "run_at": "document_idle"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "icons/*"
+            ],
+            "matches": [
+                "*://*.linkedin.com/*"
+            ]
+        }
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "https://api.github.com/*"
+    ]
+}

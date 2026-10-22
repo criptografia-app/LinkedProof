@@ -1,0 +1,28 @@
+.criptografia-sign-btn {
+    background-color: transparent;
+    border: 1px solid #00ff00; /* Neon green */
+    color: #4CAF50; /* Slightly darker for text if needed, or keeping it neon */
+    color: #00ff00;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 5px 12px;
+    margin-right: 8px;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 1.4rem; /* LinkedIn buttons are usually around 1.4rem or 14px */
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.4);
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.2);
+}
+
+.criptografia-sign-btn span {
+    margin-right: 6px;
+    font-size: 1.2em;
+}
+
+.criptografia-sign-btn:hover {
+    background-color: rgba(0, 255, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.4);
+}
