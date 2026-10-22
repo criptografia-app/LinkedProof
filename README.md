@@ -126,7 +126,8 @@ doesn't prove who that is. The link to a person comes from the author
 publishing their address somewhere they control: an ENS name, a profile, a
 website.
 
-My posts are signed by the address that `metaver5o.eth` resolves to.
+My posts are signed by `marcomatos.eth`
+(`0x4ad313f3C7e08707F163BAe7EaBF990039e61057`).
 
 ## What gets signed
 
