@@ -53,8 +53,15 @@ line to a post unless the proof was actually saved.
 ## Sign a post
 
 1. On LinkedIn click **Start a post** and write the **whole** post.
-2. Click the round sign button in the composer's top-right corner (or the
-   bigger one in the bottom-right of the page).
+2. Click the round sign button (Alan Turing, green ring): the small one pinned
+   to the top-right of the text box, or the bigger one in the bottom-right
+   corner of the page. Both do the same thing.
+
+   ![The two sign buttons: one inside the post composer, one in the page corner](docs/sign-button.png)
+
+   *Shown on a plain test page running the extension's own content script, so
+   the screenshot doesn't need a LinkedIn login. On LinkedIn the buttons sit
+   in the same places.*
 3. MetaMask asks you to sign a short message: the post's SHA-256 hash, a
    timestamp and a random reference. Approve.
 4. The extension saves the proof Gist and adds one line to the end of the post:
